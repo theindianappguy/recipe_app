@@ -62,7 +62,7 @@ flutter:
   fonts:
     - family: Overpass
       fonts:
-        - asset: assets/fonts/overpass_bold.otf
+       - asset: assets/fonts/overpass_bold.otf
     - family: OverpassRegular
       fonts:
         - asset: assets/fonts/overpass_regular.otf

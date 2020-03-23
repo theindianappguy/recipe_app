@@ -43,7 +43,7 @@ class _HomeState extends State<Home> {
           ),
           SingleChildScrollView(
             child: Container(
-              padding: EdgeInsets.symmetric(vertical: Platform.isIOS? 60: 30, horizontal: 24),
+              padding: EdgeInsets.symmetric(vertical: !kIsWeb ? Platform.isIOS? 60: 30 : 30, horizontal: 24),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
@@ -126,7 +126,7 @@ class _HomeState extends State<Home> {
                                 });
                                 recipies = new List();
                                 String url =
-                                    "https://api.edamam.com/search?q=${textEditingController.text}&app_id=0f21d949&app_key=c8daa8a855225d925157f8c7e093a014";
+                                    "https://api.edamam.com/search?q=${textEditingController.text}&app_id=0f21d949&app_key=8bcdd93683d1186ba0555cb95e64ab26";
                                 var response = await http.get(url);
                                 print(" $response this is response");
                                 Map<String, dynamic> jsonData =
