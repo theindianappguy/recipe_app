@@ -1,16 +1,19 @@
-# recipe_app
+![Flutter Recipe App](https://user-images.githubusercontent.com/55942632/77454399-7b9a3780-6e1e-11ea-8aa3-ddd8e50cb90f.png)
 
-A new Flutter project.
+Build a Recipe App with Flutter | Flutter Tutorial For Beginners
 
-## Getting Started
+Full FREE Course : https://youtu.be/VTR5HpRfS0A
 
-This project is a starting point for a Flutter application.
+In todays episode we are going to take the basics of #flutter and we are going to create a real world application. We are going to learn how to build a food recipe application using only flutter.
 
-A few resources to get you started if this is your first Flutter project:
+📕 Things covered in this video:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+• Fetch data from an api with flutter
+  
+• How useState in flutter
+	
+• How to pass down data in flutter on widgets
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+• How to show a grid view
+
+If you are a beginner with flutter I highly encourage you to follow along because you are going to learn how to put all the small pieces together to understand things like how to fetch data from an api, how to update state and more
